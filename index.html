@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    <form>
+        <label for=" fname">Imię</label><br>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="lname">Nazwisko</label><br>
+        <input type="text" id="lname" name="lname"><br><br>
+        <label for="phone">Telefon</label><br>
+        <input type="text" id="tel" name="phone"><br><br>
+    </form>
+
+    <button type="button" id="wyswietl">Wyświetl dane</button>
+    <div id="container">
+        <p id="data">Dane:</p>
+        <p id="name"></p>
+        <p id="surname"></p>
+        <p id="phone"></p>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
